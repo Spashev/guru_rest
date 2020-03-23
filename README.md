@@ -28,7 +28,12 @@ Laravel has the most extensive and thorough [documentation](https://laravel.com/
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
 ## Guru_rest
-<h3>Измените в <b>.env</b> файле подключения к базе данных</h3>
-<h3>Проделайте миграции <span style="color:green"><i>php artisan migrate</i></span></h3>
-<h3>Если ошибка то добавьте в <b>app/Providers/AppServiceProvider.php</b><i>Schema::defaultStringLength(191);</i></h3> 
-- https://laravel-news.com/laravel-5-4-key-too-long-error
+<h4>Измените в <b>.env</b> файле подключения к базе данных</h4>
+<h4>Проделайте миграции <span style="color:green"><i>php artisan migrate</i></span></h4>
+<h4>Если ошибка то добавьте в <b>app/Providers/AppServiceProvider.php</b><i>Schema::defaultStringLength(191);</i></h4> - https://laravel-news.com/laravel-5-4-key-too-long-error
+<h4><i>php artisan migrate:fresh</i></h4>
+<h4>composer require laravel/ui</h4>
+<h4>php artisan ui vue --auth</h4>
+<h4>npm install && npm run dev</h4>
+
+<h5>У кого не установлен npm надо скачать чтобы его запустить</h5> https://nodejs.org/en/
