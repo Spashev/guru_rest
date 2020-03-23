@@ -31,4 +31,5 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 <h3>Измените в <b>.env</b> файле подключения к базе данных</h3>
 <h3>Проделайте миграции <span style="color:green"><i>php artisan migrate</i></span></h3>
 <h3>Если ошибка то добавьте в <b>app/Providers/AppServiceProvider.php</b><i>Schema::defaultStringLength(191);</i></h3> 
-- [решения](https://stackoverflow.com/questions/42105351/call-to-undefined-method-illuminate-database-schema-mysqlbuilderdefaultstringl)
+[решения](https://stackoverflow.com/questions/42105351/call-to-undefined-method-illuminate-database-schema-mysqlbuilderdefaultstringl) 
+[решения]()
